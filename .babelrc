@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "stage-2",
+    "react"
+  ],
+  
+   "plugins": [
+      "transform-object-rest-spread",
+      "transform-runtime",
+      ["import", { "style": "css", "libraryName": "antd-mobile" }]
+     /* ,
+       {
+        "polyfill": false,
+        "regenerator": true
+       }
+       */
+      ]
+}

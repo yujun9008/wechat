@@ -1,0 +1,33 @@
+.root{
+  composes:p20 psr from '../../../styles/less/common.less';
+  display: block;
+  width: 100%;
+  padding-bottom: 30px;
+  background: #fff;
+  svg{
+    width:100%
+  }
+}
+.cBody{
+  composes: psa tac w_50 from '../../../styles/less/common.less';
+  height: 50%;
+  margin: auto;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.h3{
+  composes: f26 fb  from '../../../styles/less/common.less';
+  margin-top: 20%;
+}
+.value{
+  composes: f32 from '../../../styles/less/common.less';
+  margin-top: 12%
+}
+.ratio{
+  composes: tar pr10 f26 gray9 from '../../../styles/less/common.less';
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+}

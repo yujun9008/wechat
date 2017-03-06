@@ -1,0 +1,57 @@
+.root{
+  composes:db psr from '../../../styles/less/common.less';
+  min-height: 50px;
+  width:100%;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+.title{
+  composes:f28 fb from '../../../styles/less/common.less';
+}
+.value{
+  composes: tac f30 from '../../../styles/less/common.less';
+  margin: 0 auto;
+  color:#ff9800
+}
+.footer{
+  composes: tar from '../../../styles/less/common.less';
+}
+.ratio{
+  composes: f20 gray3 mr10  from '../../../styles/less/common.less';
+}
+.arrow{
+  composes: gray9 fb dib from '../../../styles/less/common.less';
+  width: 150px;
+  padding-right: 10px;
+}
+// 子组件样式 Cards.js
+.roots{
+  composes:db psr from '../../../styles/less/common.less';
+  min-height: 50px;
+  width:100%;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  background-color: #ddd;
+  padding: 20px 10px;
+}
+.titles{
+  composes:f26 from '../../../styles/less/common.less';
+}
+.values{
+  composes: tac f26 from '../../../styles/less/common.less';
+  margin: 0 auto;
+  color:#ff9800
+}
+.footers{
+  composes: tar from '../../../styles/less/common.less';
+}
+.ratios{
+  composes: f20 gray3  from '../../../styles/less/common.less';
+}
+.arrows{
+  composes: gray9 fb dib from '../../../styles/less/common.less';
+  display: inline-block;;
+  width: 150px
+}
