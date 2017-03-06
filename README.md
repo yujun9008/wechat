@@ -1,5 +1,7 @@
-# react-redux-antd-generator
-> 本项目是微信端报表展示，以图表的方式将销售额、流水等数据展示出来，数据都是本地mock数据。详细需求见[这里](https://modao.cc/app/a02c9facead23371bb1b5f3efe87e643d1907bb7)
+# 微信报表项目
+
+> 本项目用的react-redux-antd技术栈，以图表的方式将销售额、流水等数据展示出来，数据都是本地mock数据。详细需求见[这里](https://modao.cc/app/a02c9facead23371bb1b5f3efe87e643d1907bb7)
+
 ![需求](./src/images/xuqiu.png)
 
 
